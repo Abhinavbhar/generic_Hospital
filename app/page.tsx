@@ -333,7 +333,7 @@ const HospitalLanding = () => {
                 <input type="text" placeholder="Your Name" className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-600 focus:border-transparent outline-none" />
                 <input type="tel" placeholder="Phone Number" className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-600 focus:border-transparent outline-none" />
                 <input type="email" placeholder="Email Address" className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-600 focus:border-transparent outline-none" />
-                <textarea placeholder="Your Message" rows="4" className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-600 focus:border-transparent outline-none"></textarea>
+                <textarea placeholder="Your Message" rows={4} className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-600 focus:border-transparent outline-none"></textarea>
                 <button onClick={(e) => {
                   e.preventDefault();
                   alert('Thank you for your inquiry! We will contact you shortly.');
@@ -345,8 +345,8 @@ const HospitalLanding = () => {
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241317.11609823277!2d72.74109995!3d19.082177449999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c6306644edc1%3A0x5da4ed8f8d648c69!2sMumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1234567890" 
                 width="100%" 
                 height="100%" 
-                style={{border:0}} 
-                allowFullScreen="" 
+                style={{border: 0}} 
+                allowFullScreen
                 loading="lazy"
                 title="Hospital Location"
               ></iframe>
